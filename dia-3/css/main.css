@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.padre {
+    background-color: orangered;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    border: 3px solid black
+}
+
+.hijo {
+    background-color: gray;
+    width:50%;
+    height: 50%;
+    margin: auto;
+    border: 3px dotted blueviolet
+}
