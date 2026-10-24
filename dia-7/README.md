@@ -52,4 +52,4 @@ dia-7/
 
 ## Repositorio
 
-https://github.com/bedoyacloud/DW-Octubre-2026
+https://github.com/bedoyacloud/DW-Octubre-2026/tree/main/dia-7
