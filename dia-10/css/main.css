@@ -1,0 +1,146 @@
+/* ===== FUENTE PERSONALIZADA ===== */
+
+@font-face {
+    font-family: 'MiFuente';              /* el nombre que tú le das */
+    src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;                    /* muestra texto mientras carga */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== EJERCICIO 1 ===== */
+
+.ejercicio-1 {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.ejercicio-1 h1 {
+    font-size: 3rem;
+}
+
+.ejercicio-1 h2 {
+    font-size: 1.5em;
+}
+
+.ejercicio-1 p {
+    font-size: 18px;
+    width: 50%;
+}
+
+.ejercicio-1 button {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    width: 20vw;
+    height: vh;
+}
+
+/* ===== EJERCICIO 2 ===== */
+
+.ejercicio-2 {
+    padding: 20px;
+}
+
+.caja {
+    width: 50vw;
+    font-size: 40px;
+    border: 2px solid blue;
+}
+
+.caja p {
+    font-size: 1em;
+}
+
+.caja span {
+    font-size: 1.5em;
+}
+
+/* ===== EJERCICIO 3 ===== */
+
+.ejercicio-3 {
+    padding: 20px;
+}
+
+.caja-calc {
+    width: 30vw;
+    calc(2rem + 5px);
+    margin-left: calc(10% - 1rem);
+    background-color: lightblue;
+    border: 2px solid navy;
+}
+
+.caja-calc p {
+    font-size: 16px;
+}
+
+/* ===== EJERCICIO 4 ===== */
+
+.ejercicio-4 {
+    padding: 20px;
+}
+
+.ejercicio-4 h1 {
+    font-size: calc(2vw + 10px);
+    color: darkgreen;
+}
+
+.ejercicio-4 p {
+    font-size: 16px;
+    color: gray;
+}
+
+/* ===== EJERCICIO 5 ===== */
+
+.ejercicio-5 {
+    padding: 20px;
+}
+
+.ejercicio-5 p {
+    max-width: 60vh;
+    line-height: 1.6;
+    font-size: 20px;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+/* ===== EJERCICIO 6 ===== */
+
+.ejercicio-6 {
+    padding: 20px;
+}
+
+.ejercicio-6 h1 {
+    font-size: calc(2vw + 16px);
+    color: purple;
+}
+
+.ejercicio-6 p {
+    font-size: clamp(14px, 2vw, 20px);
+    color: darkred;
+}
+
+/* ===== EJERCICIO 8 ===== */
+
+.fuente-local {
+    font-family: 'MiFuente', Georgia, serif;   /* fallback por si no carga */
+}
+
+.ejercicio-8 {
+    padding: 1.25rem;
+}
+
+.ejercicio-8 h1 {
+    font-size: 3rem;
+}
+
+.ejercicio-8 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
