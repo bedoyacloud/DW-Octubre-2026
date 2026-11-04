@@ -4,24 +4,20 @@
     box-sizing: border-box;
 }
 
-.carrusel {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 16px;
-    padding: 16px;
-    width: 100%;
+body {
+    height: 300vh;
 }
 
-.item {
-    flex: 0 0 80%;
-    height: 250%;
-    background: blueviolet;
-    color: aqua;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    border-radius: 8px;
-    scroll-snap-align: center;
+p {
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.izquierda {
+    inset: -50px auto auto -25vw;
+}
+
+.derecha {
+    inset: 50px auto auto 25vw;
 }
