@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;      /* Mide al menos el alto de la pantalla */
+    padding-top: 50px;      /* Padding en vez de margin: no genera scroll */
+    display: flex;
+    flex-direction: column; /* Título arriba, logos debajo */
+    align-items: center;    /* Centra todo horizontalmente */
+}
+
+h1 {
+    color: red;
+    margin-bottom: 60px;    /* Separa el título de las imágenes */
+    text-align: center;
+}
+
+.logos {
+    display: flex;          /* Por defecto en fila: logos en horizontal */
+    gap: 40px;
+    align-items: center;
+}
+
+.logos img {
+    width: 150px;
+    aspect-ratio: 1 / 1;    /* Caja cuadrada: el alto se calcula solo (150px) */
+    object-fit: contain;    /* El logo cabe entero sin deformarse */
+}
+
+.logos a:hover img {
+    opacity: 0.6;           /* Pista visual de que es un enlace */
+}
