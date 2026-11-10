@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    background-color: #fff;
+    color: #444;
+    margin: 20px;
+}
+
+.section2 .a{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
