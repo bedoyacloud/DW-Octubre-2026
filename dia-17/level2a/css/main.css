@@ -11,7 +11,7 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
     gap: 10px;
     background-color: #fff;
@@ -48,7 +48,7 @@
     display: grid;
     background-color: var(--color-oscuro);
     grid-template-columns: subgrid;
-        gap: 10px;
+    gap: 10px;
 }
 
 .box.d .box{
