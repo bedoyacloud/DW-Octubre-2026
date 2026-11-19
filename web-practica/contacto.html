@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Contacto · Blog - Noticias Visa Americana</title>
+    <meta name="description" content="Escríbenos si tienes dudas sobre las noticias del blog de la visa americana.">
+    <link rel="icon" href="images/favicon.png">
+    <link rel='stylesheet' href='css/styles.css'>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top container">
+            <a class="header__logo" href="index.html">Blog - Noticias Visa Americana · Bogotá Colombia</a>
+
+            <form class="search" action="#" method="get" role="search">
+                <label class="visually-hidden" for="buscar">Buscar noticias</label>
+                <input class="search__input" type="search" id="buscar" name="q" placeholder="Buscar noticias...">
+            </form>
+        </div>
+
+        <nav class="nav container" aria-label="Menú principal">
+            <a class="nav__link" href="index.html">Inicio</a>
+            <a class="nav__link" href="noticia.html">Noticias</a>
+            <a class="nav__link nav__link--active" href="contacto.html" aria-current="page">Contacto</a>
+            <a class="nav__link" href="login.html">Iniciar sesión</a>
+            <a class="nav__link" href="registro.html">Registrarse</a>
+        </nav>
+    </header>
+
+    <main class="main container">
+        <h1>Contacto</h1>
+
+        <form class="form" action="#" method="post">
+            <div>
+                <label class="form__label" for="nombre">Nombre</label>
+                <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div>
+                <label class="form__label" for="correo">Correo electrónico</label>
+                <input class="form__input" type="email" id="correo" name="correo" placeholder="Tu correo" required>
+            </div>
+            <div>
+                <label class="form__label" for="asunto">Asunto</label>
+                <input class="form__input" type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje">
+            </div>
+            <div>
+                <label class="form__label" for="mensaje">Mensaje</label>
+                <textarea class="form__input" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button class="form__button" type="submit">Enviar mensaje</button>
+        </form>
+
+        <h2 class="main__subtitle">Ubicación de la Embajada de EE. UU. en Bogotá</h2>
+        <iframe class="map" src="https://maps.google.com/maps?q=Embajada+de+Estados+Unidos+Bogota&output=embed" title="Mapa con la ubicación de la Embajada de EE. UU. en Bogotá" width="600" height="450" loading="lazy"></iframe>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Blog - Noticias Visa Americana · Trabajo de clase</p>
+    </footer>
+
+</body>
+
+</html>
